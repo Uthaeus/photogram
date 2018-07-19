@@ -1,7 +1,19 @@
-<h1>Photogram</h1>
+<div class="posts-wrapper row">
 
-
-<% @posts.each do |post| %>
-  <%= image_tag post.image.url(:medium) %>
-  <%= post.caption %>
-<% end %>
+  <% @posts.each do |post| %>
+    <div class="post">
+      <div class="post-head">
+        <div class="name">
+          Name Here
+        </div>
+      </div>
+      <div class="image center-block">
+        <%= image_tag post.image.url(:medium) %>
+      </div>
+      <p class="caption">
+        <%= post.caption %>
+      </p>
+    </div>
+  <% end %>
+  
+</div>
