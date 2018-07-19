@@ -54,4 +54,6 @@ gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
 gem 'dotenv-rails', '~> 2.5'
 gem 'mini_magick', '~> 4.8'
 gem 'simple_form', '~> 4.0', '>= 4.0.1'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+
 
