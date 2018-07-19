@@ -1,0 +1,9 @@
+
+
+<%= render 'form' %>
+
+<div class="text-center edit-links">
+  <%= link_to 'Back', post_path(@post) %> |
+  <%= link_to 'Cancel', root_path %> |
+  <%= link_to 'Delete', @post, method: :delete, data: { confirm: 'Are you sure?' } %>
+</div>
