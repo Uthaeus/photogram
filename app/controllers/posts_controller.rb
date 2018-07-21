@@ -34,7 +34,7 @@ class PostsController < ApplicationController
     if @post.update(post_params)
       flash[:success] = "Post updated"
 
-      redirect_to @post 
+      redirect_to root_path 
     else
       flash.now[:alert] = "Update failed. Please check the form"
       render :edit
@@ -43,6 +43,7 @@ class PostsController < ApplicationController
 
   def destroy
     @post.destroy
+    flash[:success] = "Your post has been removed"
 
     redirect_to root_path
   end
