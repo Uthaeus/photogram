@@ -6,4 +6,8 @@ class NotificationsController < ApplicationController
 
     redirect_to post_path @notification.post 
   end
+
+  def index
+    @notifications = current_user.notifications 
+  end
 end
