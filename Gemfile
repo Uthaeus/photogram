@@ -59,5 +59,6 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'jquery-turbolinks', '~> 2.1'
+gem 'acts_as_votable', '~> 0.11.1'
 
 

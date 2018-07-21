@@ -47,6 +47,10 @@ class PostsController < ApplicationController
     redirect_to root_path
   end
 
+  def like
+    
+  end
+
 
   private
 
