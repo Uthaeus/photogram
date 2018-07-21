@@ -22,7 +22,7 @@ module ApplicationHelper
                         id: 'image-preview',
                         class: 'img-responsive img-circle profile-image' if user.avatar.exists?
 
-    image_tag 'default-avatar.jpg', id: 'image-preview', class: 'img-responsive img-circle profile-image'
+    image_tag 'default_avatar.png', id: 'image-preview', class: 'img-responsive img-circle profile-image'
   end
-  
+
 end
