@@ -11,5 +11,6 @@ class Post < ApplicationRecord
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 
   has_many :comments, dependent: :destroy
+  has_many :notifications, dependent: :destroy
 
 end

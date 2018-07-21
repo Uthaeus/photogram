@@ -10,6 +10,7 @@ class User < ApplicationRecord
 
   has_many :posts, dependent: :destroy
   has_many :comments, dependent: :destroy
+  has_many :notifications, dependent: :destroy
 
   has_attached_file :avatar, styles: { medium: '152x152#' }
 
