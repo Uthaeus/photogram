@@ -61,4 +61,4 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'jquery-turbolinks', '~> 2.1'
 gem 'acts_as_votable', '~> 0.11.1'
 
-
+ruby "2.4.1"
